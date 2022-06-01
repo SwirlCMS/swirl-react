@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "@swirl-cms/swirl": {
+      "signature": "2950c0ac95eca2ed31198c29c1ee36cf",
+      "file": true
+    }
+  }
+}

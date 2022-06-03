@@ -1,5 +1,5 @@
 import { ChakraProvider } from '@chakra-ui/react'
-import { SwirlCMS } from './lib/swirl-cms-react'
+import { SwirlCMS } from './lib'
 import * as components from './swirlCMS'
 
 function App() {

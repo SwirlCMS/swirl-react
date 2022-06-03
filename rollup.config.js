@@ -9,7 +9,7 @@ const packageJson = require('./package.json')
 
 export default [
   {
-    input: 'src/lib/swirl-cms-react.ts',
+    input: 'src/lib/index.ts',
     output: [
       {
         dir: packageJson.module,

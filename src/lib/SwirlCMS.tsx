@@ -33,6 +33,8 @@ export default function SwirlCMS({ components, slug }: Props) {
       {pageData &&
         // @ts-ignore
         pageData.components?.map(({ metadata }) => {
+          // TODO: construct react component using config data rather than passing in a renderable component
+          
           const Component = components[metadata.type]
           return Component ? (
             <Component key={metadata.id} {...metadata} />
